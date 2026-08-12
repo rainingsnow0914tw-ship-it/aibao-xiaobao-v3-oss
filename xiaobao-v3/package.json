@@ -1,0 +1,16 @@
+{
+  "name": "xiaobao-v3",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "officeparser": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

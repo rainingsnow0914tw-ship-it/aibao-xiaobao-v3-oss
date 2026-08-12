@@ -1,0 +1,15 @@
+{
+  "name": "aibao-v3",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

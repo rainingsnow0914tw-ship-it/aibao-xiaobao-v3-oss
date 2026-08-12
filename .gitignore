@@ -1,0 +1,21 @@
+# 依賴（npm install 就會回來、不進版控）
+node_modules/
+
+# 環境變數／密鑰（真的密鑰在 GCP Secret Manager、這裡只是防呆）
+.env
+.env.*
+!.env.example
+*.key
+*credentials*.json
+service-account*.json
+
+# log / 暫存
+*.log
+npm-debug.log*
+.cache/
+tmp/
+
+# 作業系統
+.DS_Store
+Thumbs.db
+desktop.ini
